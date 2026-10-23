@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "weight_policy": {
+    "version": 1,
+    "basis": "business_priority",
+    "core_min_share": 0.5
+  },
+  "gate_tests": [
+    "test_outputs.py::test_allocation_matches_global_optimum"
+  ],
+  "tests": {
+    "test_outputs.py::test_existing_inspect_mode_returns_zero": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_success_is_silent_and_creates_report": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_missing_argument_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_malformed_json_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_duplicate_top_level_key_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_top_level_array_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_missing_top_level_key_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_extra_top_level_key_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_schema_version_bool_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_unit_value_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_case_id_shape_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_capital_zero_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_factor_count_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_factor_bounds_missing_key_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_factor_bounds_reversed_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_too_few_assets_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_duplicate_asset_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_price_bool_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_too_few_observations_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_duplicate_observation_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_units_missing_asset_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_units_bool_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_factor_risk_extra_key_returns_three": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_factor_loadings_recovered": {
+      "weight": 0.221,
+      "priority": "core",
+      "rationale": "核心组合结果必须同时满足载荷反演、资本约束、收益目标和因子敞口，直接影响月末复核。"
+    },
+    "test_outputs.py::test_spend_matches_allocations": {
+      "weight": 0.221,
+      "priority": "core",
+      "rationale": "核心组合结果必须同时满足载荷反演、资本约束、收益目标和因子敞口，直接影响月末复核。"
+    },
+    "test_outputs.py::test_objective_matches_allocations": {
+      "weight": 0.221,
+      "priority": "core",
+      "rationale": "核心组合结果必须同时满足载荷反演、资本约束、收益目标和因子敞口，直接影响月末复核。"
+    },
+    "test_outputs.py::test_exposure_matches_loadings": {
+      "weight": 0.221,
+      "priority": "core",
+      "rationale": "核心组合结果必须同时满足载荷反演、资本约束、收益目标和因子敞口，直接影响月末复核。"
+    },
+    "test_outputs.py::test_report_exact_keys": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_compact_json_and_trailing_newline": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_checksum_matches_result": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_journal_repeat_is_idempotent": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_failure_preserves_existing_outputs": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    },
+    "test_outputs.py::test_normal_case_finishes_within_three_seconds": {
+      "weight": 0.004,
+      "priority": "supporting",
+      "rationale": "该用例验证聚合风险契约、边界、序列化或跨运行流水，缺失会使组合结果无法复核。"
+    }
+  }
+}
